@@ -1,7 +1,6 @@
 {
     "mongoURI": "mongodb+srv://jb123:jb123@coderconnect-zeku1.mongodb.net/test?retryWrites=true&w=majority",
     "jwtToken": "secrettoken",
-    "githubClientId": "",
-    "githubSecret": ""
-      
+    "githubClientId": "50015de93cafc952e3dd",
+    "githubSecret": "8019e054efe1cdb8900b8544621ed11bb1811b4b"   
 }
