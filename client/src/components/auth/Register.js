@@ -5,7 +5,7 @@ import { setAlert } from '../../actions/alert';
 import { register } from '../../actions/auth';
 import PropTypes from 'prop-types';
 
-const Register = ({ setAlert }) => {
+const Register = ({ setAlert, register, isAuthenticated, Redirect }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,13 +27,13 @@ const Register = ({ setAlert }) => {
     }
   };
 
-  // if (isAuthenticated) {
-  //   return <Redirect to='/dashboard' />;
-  // }
+  if (isAuthenticated) {
+    return <Redirect to='/' />;
+  }
 
   return (
     <Fragment>
-      <h1 className='large'>Sign Up</h1>
+      <h1 className='large primary'>Sign Up</h1>
       <p className='lead'>
         <i className='fa fa-user' /> Create Your Account
       </p>
