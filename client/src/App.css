@@ -1,9 +1,10 @@
 /* Global Styles */
 :root {
   --primary-color: #9a11bd;
+  --sec-color: #721c87;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
-  --danger-color: #dc3545;
+  --danger-color: #b0525c;
   --success-color: #28a745;
 }
 
@@ -73,6 +74,9 @@ img {
 
 .text-dark {
   color: var(--dark-color);
+}
+.text-icon {
+  color: var(--sec-color);
 }
 
 /* Padding */
