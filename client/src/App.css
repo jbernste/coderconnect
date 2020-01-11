@@ -162,7 +162,7 @@ img {
 }
 
 .btn-primary,
-.bg-primary,
+.bg-primary, 
 .badge-primary,
 .alert-primary {
   background: var(--primary-color);
